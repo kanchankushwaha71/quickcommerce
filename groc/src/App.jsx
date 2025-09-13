@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { Navbar, Welcome, Footer, Services, Transactions } from "./components";
 import AboutUs from "./pages/AboutUs";
@@ -6,7 +5,7 @@ import ProductDetail from "./pages/ProductDetail";
 import AddressBook from "./pages/AddressBook";
 import PaymentPage from "./pages/PaymentPage";
 import Login from "./pages/Login";
-import SignUp from "./pages/SignUp";
+import SignUp from "./pages/Signup";
 import ProfilePage from "./pages/ProfilePage"; // Import the ProfilePage component
 
 const App = () => (
