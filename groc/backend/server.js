@@ -15,7 +15,7 @@ app.use(express.json()); // To parse JSON data
 app.use(express.urlencoded({ extended: true })); // To parse URL encoded data
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/quick', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/quick')
   .then(() => console.log('MongoDB connected successfully'))
   .catch(err => console.error('Error connecting to MongoDB', err));
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import './AboutUs.css';
 
 const AboutUs = () => {
@@ -31,7 +30,7 @@ const AboutUs = () => {
         <div className="vision">
           <h2>Our Vision</h2>
           <p>
-            To be India's most trusted online grocery delivery platform by consistently 
+            To be India&apos;s most trusted online grocery delivery platform by consistently 
             exceeding customer expectations with innovative technology, sustainable practices, 
             and excellent service.
           </p>
@@ -116,8 +115,8 @@ const AboutUs = () => {
         <div className="testimonial-slider">
           <div className="testimonial-card">
             <p>
-              "QuickCommerce has been a lifesaver! The delivery is super fast, and the 
-              products are always fresh. Highly recommended!"
+              "              &quot;QuickCommerce has been a lifesaver! The delivery is super fast, and the 
+              products are always fresh. Highly recommended!&quot;"
             </p>
             <h4>- Ananya Singh</h4>
           </div>

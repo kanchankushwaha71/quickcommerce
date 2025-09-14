@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ProductListWithModal = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);

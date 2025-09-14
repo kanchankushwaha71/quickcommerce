@@ -1,10 +1,13 @@
-import React from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 
 const ProductDetail = () => {
   const { productId } = useParams();
   const location = useLocation();
   const product = location.state?.product; // Product data passed from Services page
+
+  if (!product) {
+    return <div>Product not found for ID: {productId}</div>;
+  }
 
   if (!product) {
     return <p>Product not found.</p>;
